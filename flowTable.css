@@ -1,0 +1,21 @@
+pre{
+	tab-size:2ch;
+}
+table,tr,th,td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+tr{
+	background-color:white;
+}
+tr:nth-child(2n){
+	background-color:rgba(225, 255, 225, .8);
+}
+td,th{
+	min-width: 200px;
+	min-height: 200px;
+}
+td{
+	text-align:left;
+	padding:5px;
+}

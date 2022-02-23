@@ -1,0 +1,22 @@
+table,tr,th,td{
+	margin-top:20px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+tr{
+	background-color:white;
+	height:30px
+}
+td,th{
+	min-width: 30px;
+	min-height: 30px;
+
+	max-width: 30px;
+	max-height: 30px;
+}
+td.light{
+	background-color:beige;
+}
+td.dark{
+	background-color:black;
+}
